@@ -45,3 +45,12 @@ the reason we have implemented that in EVE-7 from the early
 start. 
 
 <a href="url"><img src="https://genki.physics.ucsd.edu/alja/collection.png"  width="550" ></a>
+
+### Dynamic Tables
+
+In the server-client model it is possible to edit tables in the
+runtime. A user can change physics collections. The columns can be
+modified as well. On can edit existing column expression or add a new
+column with any valid expression.
+<br/>
+<a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a>
