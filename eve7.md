@@ -5,6 +5,7 @@ This document is a bried description of web based event display framework EVE-7.
 
 This code is at experimental stage. 
 
+#### Eve Elements
 In this release we support the following Eve elemets:
   * REveTrack
   * REveLines
@@ -12,11 +13,33 @@ In this release we support the following Eve elemets:
   * REveCoimpund
   * REveJetCone
   * REveGeoShape
+#### Projections
   
+#### Viewers  
  Scenes and Viewers are created the same as in X11 implemtatopn of EVE. PLase see eamples in eve7/tutorials.
  So far window management is not complited. All viewers (GL or Table) are automatically streamed and disaply on the client side.The first created view takes the main slot, all other views are stacked in the vertical side slot.
  
   <a href="url"><img src="https://genki.physics.ucsd.edu/alja/event-demo.png"  width="550" ></a>
+
+#### Physics collections
+Original EVE package has no support for management and display of
+experiment-specific physics collections. EVE objects were always just
+a visual representation of physics objects.
+From experiance with otherevent displays we saw Physics Collections and Event
+Items are essential to Fireworks data management and display. This is
+the reason we have implemented that in EVE-7 from the early
+start. 
+
+<a href="url"><img src="https://genki.physics.ucsd.edu/alja/collection.png"  width="550" ></a>
+
+#### Dynamic Tables
+
+In the server-client model it is possible to edit tables in the
+runtime. A user can change physics collections. The columns can be
+modified as well. On can edit existing column expression or add a new
+column with any valid expression.
+<br/>
+<a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a>
 
 ## Default behaviour
 ### Window mapping
@@ -46,23 +69,3 @@ The url used on your local desktop will therefore be:
 
 > http://localhost:1234/web7gui/win1/
 
-## New features
-### Physics collections
-Original EVE package has no support for management and display of
-experiment-specific physics collections. EVE objects were always just
-a visual representation of physics objects.
-From experiance with otherevent displays we saw Physics Collections and Event
-Items are essential to Fireworks data management and display. This is
-the reason we have implemented that in EVE-7 from the early
-start. 
-
-<a href="url"><img src="https://genki.physics.ucsd.edu/alja/collection.png"  width="550" ></a>
-
-### Dynamic Tables
-
-In the server-client model it is possible to edit tables in the
-runtime. A user can change physics collections. The columns can be
-modified as well. On can edit existing column expression or add a new
-column with any valid expression.
-<br/>
-<a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a>
