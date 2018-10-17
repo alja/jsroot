@@ -3,7 +3,7 @@
 
 This document is a bried description of web based event display framework EVE-7. It presumes user is familiar with originating X11 implemetation of event visaulization evenironment [EVE](https://root.cern.ch/doc/v614/group__TEve.html).
 
-This code is at experimental stage. 
+This code is at experimental stage. All classes now begin with REve and subside in ROOT::Experintal namspace.
 
 #### Eve Elements
 In this release we support the following Eve elemets:
@@ -13,7 +13,12 @@ In this release we support the following Eve elemets:
   * REveCoimpund
   * REveJetCone
   * REveGeoShape
+  
 #### Projections
+ Projections have been imported from original imeplemetion restoring complete functionality:
+   * propagating changes from projectable to projecteds
+   * nonlinear scaleing 
+   * keeping all projection types RhoZ, RPhi, 3D with possibility of dictirtion (typically this is magniying in the center of event).
   
 #### Viewers  
  Scenes and Viewers are created the same as in X11 implemtatopn of EVE. PLase see eamples in eve7/tutorials.
