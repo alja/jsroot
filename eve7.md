@@ -1,8 +1,9 @@
 
 # User guide
 
-This document is a bried description of web based event display framework. IT helps user to set default behaviour and
-new features that were not included in X11 version.
+This document is a bried description of web based event display framework EVE-7. It presumes user is familiar with originating X11 implemetation of event visaulization evenironment [EVE](https://root.cern.ch/doc/v614/group__TEve.html).
+
+
 
 This code is still in experimental stage.
 
