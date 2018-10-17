@@ -46,7 +46,7 @@ column with any valid expression.
 <br/>
 <a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a>
 
-## Default behaviour
+## Server configuration
 ### Window mapping
 Browser windows are mapped by the default. One can disable the behaviour by adding the following line in .rootrc file:
 > Eve7.DisableShow: 1
