@@ -3,9 +3,20 @@
 
 This document is a bried description of web based event display framework EVE-7. It presumes user is familiar with originating X11 implemetation of event visaulization evenironment [EVE](https://root.cern.ch/doc/v614/group__TEve.html).
 
+This code is at experimental stage. 
 
-
-This code is still in experimental stage.
+In this release we support the following Eve elemets:
+  * REveTrack
+  * REveLines
+  * REvePointsSet
+  * REveCoimpund
+  * REveJetCone
+  * REveGeoShape
+  
+ Scenes and Viewers are created the same as in X11 implemtatopn of EVE. PLase see eamples in eve7/tutorials.
+ So far window management is not complited. All viewers (GL or Table) are automatically streamed and disaply on the client side.The first created view takes the main slot, all other views are stacked in the vertical side slot.
+ 
+  <a href="url"><img src="https://genki.physics.ucsd.edu/alja/event-demo.png"  width="550" ></a>
 
 ## Default behaviour
 ### Window mapping
