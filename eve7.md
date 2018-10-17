@@ -44,6 +44,4 @@ Items are essential to Fireworks data management and display. This is
 the reason we have implemented that in EVE-7 from the early
 start. 
 
-If you want to embed images, this is how you do it:
-
-![Image of TParticle collection](https://genki.physics.ucsd.edu/alja/collection.png | width=400)
+<a href="url"><img src="https://genki.physics.ucsd.edu/alja/collection.png"  width="550" ></a>
