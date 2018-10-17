@@ -1,4 +1,6 @@
-## User Guide 
+
+# User guide
+
 This document is a bried description of web based event display framework. IT helps user to set default behaviour and
 new features that were not included in X11 version.
 
@@ -10,7 +12,7 @@ Browser windows are mapped by the default. One can disable the behaviour by addi
 > Eve7.DisableShow: 1
 
 
-### Http server port
+### Port number
 The port is picked randomly in the range in the default port range (8800 - 9800). One can fixed it in .rootrc file 
 > WebGui.HttpPort:            8800
 
@@ -42,3 +44,6 @@ Items are essential to Fireworks data management and display. This is
 the reason we have implemented that in EVE-7 from the early
 start. 
 
+If you want to embed images, this is how you do it:
+
+![Image of TParticle collection](https://genki.physics.ucsd.edu/alja/collection.png | width=400)
