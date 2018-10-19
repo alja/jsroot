@@ -6,7 +6,7 @@ This document is a brief description of web-based event display framework Web-EV
 This code is at the experimental stage. 
 
 #### Eve Elements
-In this release we support the following Eve elemets:
+In this release we support the following EVE elemets:
   * REveTrack
   * REveLines
   * REvePointsSet
