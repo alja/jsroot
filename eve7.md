@@ -40,7 +40,7 @@ a visual representation of physics objects. Now that physics collections are avi
 
  | [![Physics-collection](https://genki.physics.ucsd.edu/alja/collection-scaled2.png)](collection.png) | 
 |:---:|
-| TParticle Collection in 3D, 2D and Table View | 
+| TParticle Collection in 3D, 2D, and Table View. Graphical views show only tracks that pass Eta and Pt filter shown in the collection editor | 
 #### Dynamic Tables
 
 In the server-client model, it is possible to edit tables in the
@@ -51,7 +51,7 @@ column with any valid expression.
 <!--a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a-->
 | [![DynamicTable](https://genki.physics.ucsd.edu/alja/table-scaled.png)](table-large.png) | 
 |:---:|
-| Adding new column in table. Use i. to access element fimction | 
+| Adding new column in table. Use i. to access element functions | 
 
 ## Server configuration
 ### Window mapping
