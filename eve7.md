@@ -38,7 +38,7 @@ a visual representation of physics objects. Now that physics collections are avi
  * Support Table views with arbitrary expressions for each column.
 
 
- | [![Physics-collection](https://genki.physics.ucsd.edu/alja/collection-scaled.png)](collection.png) | 
+ | [![Physics-collection](https://genki.physics.ucsd.edu/alja/collection-scaled2.png)](collection.png) | 
 |:---:|
 | TParticle Collection in 3D, 2D and Table View | 
 #### Dynamic Tables
@@ -49,7 +49,7 @@ modified as well. On can edit existing column expression or add a new
 column with any valid expression.
 <br/>
 <!--a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a-->
-| [![DynamicTable](https://genki.physics.ucsd.edu/alja/table-scaled2.png)](table-large.png) | 
+| [![DynamicTable](https://genki.physics.ucsd.edu/alja/table-scaled.png)](table-large.png) | 
 |:---:|
 | Adding new column in table. Use i. to access element fimction | 
 
