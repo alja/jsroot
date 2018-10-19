@@ -28,7 +28,7 @@ In this release we support the following Eve elemets:
 
  | [![EventDemo](https://genki.physics.ucsd.edu/alja/eventdemo-scaled.png)](event-demo.png) | 
 |:---:|
-| Screenshot of web event display in chrome browser| 
+| Screenshot of web event display in Chrome browser| 
  
 #### Physics collections
 The original EVE package has no support for management and display of
