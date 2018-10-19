@@ -1,7 +1,7 @@
 
 # Web-EVE User guide
 
-This document is a brief description of web-based event display framework EVE-7. It presumes user is familiar with originating X11 implementation of event visualization envenironment [EVE](https://root.cern.ch/doc/v614/group__TEve.html).
+This document is a brief description of web-based event display framework Web-EVE. It presumes user is familiar with originating X11 implementation of event visualization envenironment [EVE](https://root.cern.ch/doc/v614/group__TEve.html).
 
 This code is at the experimental stage. 
 
@@ -26,7 +26,7 @@ In this release we support the following Eve elemets:
  
 
 
- | [![VideoBlocks](https://genki.physics.ucsd.edu/alja/eventdemo-scaled.png)](event-demo.png) | 
+ | [![EventDemo](https://genki.physics.ucsd.edu/alja/eventdemo-scaled.png)](event-demo.png) | 
 |:---:|
 | Screenshot of web event display in chrome browser| 
  
@@ -46,7 +46,10 @@ runtime. A user can change physics collections. The columns can be
 modified as well. On can edit existing column expression or add a new
 column with any valid expression.
 <br/>
-<a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a>
+<!--a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a-->
+| [![EventDemo](https://genki.physics.ucsd.edu/alja/table-scaled.png)](table-large.png) | 
+|:---:|
+| Adding new column in table. Use i. to access element fimction | 
 
 ## Server configuration
 ### Window mapping
