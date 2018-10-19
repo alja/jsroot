@@ -6,7 +6,7 @@ This document is a brief description of web-based event display framework Web-EV
 This code is at the experimental stage. 
 
 #### Eve Elements
-In this release we support the following EVE elemets:
+In this release we support the following elemets:
   * REveTrack
   * REveLines
   * REvePointsSet
@@ -20,7 +20,7 @@ In this release we support the following EVE elemets:
    * nonlinear scaling 
   
 #### Viewers  
- Scenes and Viewers are created on the server the same way as in X11 implementation of EVE. Please see eamples in eve7 tutorials.
+ Scenes and Viewers are created on the server the same way as in X11 implementation. Please see eamples in eve7 tutorials.
  So far window management is not completed. All viewers (GL or Table) are automatically streamed and displayed on the client side. The first created view takes the main slot, all other views are stacked in the vertical side slot.
  <br/>
  
