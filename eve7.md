@@ -23,9 +23,13 @@ In this release we support the following Eve elemets:
  Scenes and Viewers are created on the server the same way as in X11 implementation of EVE. Please see eamples in eve7 tutorials.
  So far window management is not completed. All viewers (GL or Table) are automatically streamed and displayed on the client side. The first created view takes the main slot, all other views are stacked in the vertical side slot.
  <br/>
- <a href="url"><img src="https://genki.physics.ucsd.edu/alja/event-demo.png"  width="550" ></a>
+ 
 
 
+ | [![VideoBlocks](https://genki.physics.ucsd.edu/alja/eventdemo-scaled.png)](event-demo.png) | 
+|:---:|
+| Screenshot of web event display in chrome browser| 
+ 
 #### Physics collections
 The original EVE package has no support for management and display of
 experiment-specific physics collections. EVE objects were always just
