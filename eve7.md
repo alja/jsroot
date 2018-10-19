@@ -47,19 +47,35 @@ column with any valid expression.
 ## Server configuration
 ### Window mapping
 Browser windows are mapped by the default. One can disable the behaviour by adding the following line in .rootrc file:
-> Eve7.DisableShow: 1
-
+> WebEve.DisableShow: 1
 
 ### Port number
 The port is picked randomly in the range in the default port range (8800 - 9800). One can fixed it in .rootrc file 
 > WebGui.HttpPort:            8800
 
 ### Running remotely
-When user runs web event dispaly remotely it has to disable mapping of window with Eve7.DisableShow. The URL is pasted to the local browser to display content.
+When user runs web event dispaly remotely it has to disable mapping of window with Eve7.DisableShow. It is also recommended to use fixed port. Below is a content of a typical .rootrc:
+> WebEve.DisableShow: 1
+> WebGui.HttpPort:            9090
+
+### Browser cache
+Browsers cache content with pages with same URL. There are two ways to empty cache:
+
+#### Manually with browser plugins:
+
+  Chrome plugin Clear Cache:
+  ![alt text](https://genki.physics.ucsd.edu/alja/clearcache-icon3.png "Chrome clear cache plugin")
+  
+  Firefox plugin Empty Cache:
+  ![alt text](https://genki.physics.ucsd.edu/alja/emptycache-icon2.png "Firefox clear cache plugin")
+  
+#### Automtically 
+ One can disable browser cache in .rootrc
+  > WebGui.HttpMaxAge: 0
 
 ##### Secure protocol
 Some of the browser allow only https protocol. In this case certificate has to be specified 
-> WebGui.ServerCert:          /home/xxx/server.pem
+> WebGui.ServerCert:          /path/to/server.pem
 
 
 ##### Closed Firewall
