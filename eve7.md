@@ -1,5 +1,5 @@
 
-# User guide
+# Web-EVE User guide
 
 This document is a brief description of web-based event display framework EVE-7. It presumes user is familiar with originating X11 implementation of event visualization envenironment [EVE](https://root.cern.ch/doc/v614/group__TEve.html).
 
