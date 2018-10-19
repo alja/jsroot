@@ -79,10 +79,10 @@ Some of the browser allow only https protocol. In this case certificate has to b
 
 
 ### Closed Firewall
-In some cases like lxplus or lpcnodes do not allow open ports. In this case user has to create a ssh tunnel. For example this 
-creates a tunnel from lxpls067.cern.ch to localhost on port 1234:
+In some cases like lxplus or lpcnodes do not allow open ports. In this case user has to create a ssh tunnel. Below is an example how to create a tunnel from lxpls067.cern.ch to localhost on port 1234.
 
-> ssh -f -L 1234:localhost:8800 lxplus067.cern.ch sleep 10000
+
+> ssh -nNT -L 1234:localhost:8800 lxplus067.cern.ch 
 
 The url used on your local desktop will therefore be:
 
