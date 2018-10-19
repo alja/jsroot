@@ -73,12 +73,12 @@ Browsers cache content with pages with same URL. There are two ways to empty cac
  One can disable browser cache in .rootrc
   > WebGui.HttpMaxAge: 0
 
-##### Secure protocol
+### Secure protocol
 Some of the browser allow only https protocol. In this case certificate has to be specified 
 > WebGui.ServerCert:          /path/to/server.pem
 
 
-##### Closed Firewall
+### Closed Firewall
 In some cases like lxplus or lpcnodes do not allow open ports. In this case user has to create a ssh tunnel. For example this 
 creates a tunnel from lxpls067.cern.ch to localhost on port 1234:
 
