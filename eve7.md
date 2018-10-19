@@ -49,7 +49,7 @@ modified as well. On can edit existing column expression or add a new
 column with any valid expression.
 <br/>
 <!--a href="url"><img src="https://genki.physics.ucsd.edu/alja/table.png"  width="550" ></a-->
-| [![DynamicTable](https://genki.physics.ucsd.edu/alja/table-scaled.png)](table-large.png) | 
+| [![DynamicTable](https://genki.physics.ucsd.edu/alja/table-scaled2.png)](table-large.png) | 
 |:---:|
 | Adding new column in table. Use i. to access element fimction | 
 
